@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController2: UIViewController {
-    
+    deinit {
+        print("view is deinited")
+    }
     let avatarInforImage: UIImageView = {
         let image = UIImageView()
         image.contentMode = .scaleAspectFit
@@ -94,9 +96,18 @@ class ViewController2: UIViewController {
         print(852 / 7)
         setupImage()
         setTextField()
+        
     }
     
-    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if let touch = touches.first{
+            let current = touch.location(in: avatarInforImage)
+            dismiss(animated: true)
+        }
+    }
+//    @objc func tapdismiss(){
+//        dismiss(animated: true)
+//    }
     func setupImage(){
         view.addSubview(avatarInforImage)
         avatarInforImage.snp.makeConstraints { make in
@@ -105,14 +116,15 @@ class ViewController2: UIViewController {
             make.height.width.equalTo(110)
         }
         
+//        let guesture1 = UITapGestureRecognizer(target: self, action: #selector(tapdismiss))
+//        avatarInforImage.addGestureRecognizer(guesture1)
+        
         view.addSubview(cameraImage)
         cameraImage.snp.makeConstraints { make in
             make.top.equalTo(avatarInforImage.snp.bottom).offset(-30)
             make.leading.equalTo(avatarInforImage.snp.trailing).offset(-30)
             make.height.width.equalTo(45)
         }
-        
-        
     }
     
     
@@ -229,4 +241,8 @@ class ViewController2: UIViewController {
             make.height.equalTo(20)
         }
     }
+    
+//    @objc func tapdismiss(){
+//        dismiss(animated: true)
+//    }
 }

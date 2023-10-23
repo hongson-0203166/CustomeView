@@ -89,6 +89,7 @@ class ViewController: UIViewController {
         vc2.modalPresentationStyle = .fullScreen
         present(vc2, animated: true )
     }
+    
     func setHeader(){
         view.addSubview(headerView)
         headerView.snp.makeConstraints { make in

@@ -15,6 +15,7 @@
 		11930EFE2AE57DEA00D5BF3E /* ItemCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11930EFD2AE57DEA00D5BF3E /* ItemCustomView.swift */; };
 		119B59EE2AE61F1400BE5079 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B59ED2AE61F1400BE5079 /* ViewController2.swift */; };
 		119B59F02AE61F6300BE5079 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B59EF2AE61F6300BE5079 /* CustomTextField.swift */; };
+		119B59F22AE6961900BE5079 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B59F12AE6961900BE5079 /* SettingView.swift */; };
 		A8E9005C000270BFAC6850FD /* libPods-CustomViewBtvn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA8BDFDF12664084F37922B /* libPods-CustomViewBtvn.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		11930EFD2AE57DEA00D5BF3E /* ItemCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCustomView.swift; sourceTree = "<group>"; };
 		119B59ED2AE61F1400BE5079 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		119B59EF2AE61F6300BE5079 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		119B59F12AE6961900BE5079 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		2518AD940F0C3BE885579D64 /* Pods-CustomViewBtvn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomViewBtvn.release.xcconfig"; path = "Target Support Files/Pods-CustomViewBtvn/Pods-CustomViewBtvn.release.xcconfig"; sourceTree = "<group>"; };
 		8BA8BDFDF12664084F37922B /* libPods-CustomViewBtvn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomViewBtvn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F307FD17AA262A08F24E5D9B /* Pods-CustomViewBtvn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomViewBtvn.debug.xcconfig"; path = "Target Support Files/Pods-CustomViewBtvn/Pods-CustomViewBtvn.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				11930EEB2AE52C1A00D5BF3E /* SceneDelegate.swift */,
 				11930EED2AE52C1A00D5BF3E /* ViewController.swift */,
 				119B59EF2AE61F6300BE5079 /* CustomTextField.swift */,
+				119B59F12AE6961900BE5079 /* SettingView.swift */,
 				119B59ED2AE61F1400BE5079 /* ViewController2.swift */,
 				11930EFD2AE57DEA00D5BF3E /* ItemCustomView.swift */,
 				11930EF22AE52C1C00D5BF3E /* Assets.xcassets */,
@@ -196,6 +199,7 @@
 				119B59EE2AE61F1400BE5079 /* ViewController2.swift in Sources */,
 				11930EFE2AE57DEA00D5BF3E /* ItemCustomView.swift in Sources */,
 				119B59F02AE61F6300BE5079 /* CustomTextField.swift in Sources */,
+				119B59F22AE6961900BE5079 /* SettingView.swift in Sources */,
 				11930EEE2AE52C1A00D5BF3E /* ViewController.swift in Sources */,
 				11930EEA2AE52C1A00D5BF3E /* AppDelegate.swift in Sources */,
 				11930EEC2AE52C1A00D5BF3E /* SceneDelegate.swift in Sources */,
