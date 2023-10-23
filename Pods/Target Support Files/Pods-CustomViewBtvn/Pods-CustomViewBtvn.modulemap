@@ -1,0 +1,6 @@
+module Pods_CustomViewBtvn {
+  umbrella header "Pods-CustomViewBtvn-umbrella.h"
+
+  export *
+  module * { export * }
+}

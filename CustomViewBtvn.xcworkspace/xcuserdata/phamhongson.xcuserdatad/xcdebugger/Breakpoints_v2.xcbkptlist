@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E855E442-5F39-4D50-9B70-B9ADB968E4BA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3419FADF-9864-4946-8618-4DA80004C5D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CustomViewBtvn/ItemCustomView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "iconImage"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3419FADF-9864-4946-8618-4DA80004C5D4 - 5001c52fe0603e79"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIImageView in variable initialization expression of CustomViewBtvn.ItemCustomView.iconImage : __C.UIImageView"
+                  moduleName = "CustomViewBtvn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamhongson/Desktop/CustomViewBtvn/CustomViewBtvn/ItemCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "3419FADF-9864-4946-8618-4DA80004C5D4 - 63d17f5643ed1647"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomViewBtvn.ItemCustomView.iconImage.getter : __C.UIImageView"
+                  moduleName = "CustomViewBtvn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamhongson/Desktop/CustomViewBtvn/CustomViewBtvn/ItemCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3419FADF-9864-4946-8618-4DA80004C5D4 - ee274958cc0e1057"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomViewBtvn.ItemCustomView.init(frame: __C.CGRect) -&gt; CustomViewBtvn.ItemCustomView"
+                  moduleName = "CustomViewBtvn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamhongson/Desktop/CustomViewBtvn/CustomViewBtvn/ItemCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "3419FADF-9864-4946-8618-4DA80004C5D4 - bfb67475c28a600f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CustomViewBtvn.ItemCustomView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CustomViewBtvn.ItemCustomView&gt;"
+                  moduleName = "CustomViewBtvn"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamhongson/Desktop/CustomViewBtvn/CustomViewBtvn/ItemCustomView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
